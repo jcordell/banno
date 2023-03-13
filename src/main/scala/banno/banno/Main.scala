@@ -1,7 +1,7 @@
 package banno.banno
 
-import cats.effect.{IO, IOApp}
+import cats.effect.IOApp
 
 object Main extends IOApp.Simple {
-  val run = BannoServer.run[IO]
+  val run = BannoServer.run
 }
